@@ -7,5 +7,6 @@ I wanted to challenge myself to make a CLI version of tictactoe using pointers a
 ## How do I use?
 
 Simply use the provided makefile, and BOOM! you have a executable to play tic tac toe! if you are really fancy (and are on linux) you can move it /usr/local/bin to be able to use it anywhere!!
+> To move it, simply type `sudo mv tictactoe /usr/local/bin`
 
 # Thank you for coming to my TEDTalk
