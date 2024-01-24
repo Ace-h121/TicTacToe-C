@@ -1,2 +1,2 @@
 tictactoe:
-	gcc TicTacToe/tictactoe.c -o tictactoe
+	gcc src/tictactoe.c -o tictactoe
