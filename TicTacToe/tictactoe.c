@@ -193,7 +193,11 @@ int main(){
     if (counter == 0){
         board = makeBoard();
         printf("X'S START O'S GO SECOND\n");
+        printf("%c | %c | %c \n%c | %c | %c \n%c | %c | %c \n", board.xo1.value, board.xo2.value, board.xo3.value, board.xo4.value, board.xo5.value, board.xo6.value, board.xo7.value, board.xo8.value, board.xo9.value);
+
     }
+
+
     handleInput(&board, counter);
     
     printf("%c | %c | %c \n%c | %c | %c \n%c | %c | %c \n", board.xo1.value, board.xo2.value, board.xo3.value, board.xo4.value, board.xo5.value, board.xo6.value, board.xo7.value, board.xo8.value, board.xo9.value);
